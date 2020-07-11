@@ -31,7 +31,7 @@ allure {
 }
 
 dependencies {
-    testImplementation 'com.codeborne:selenide:5.12.0'
+    testImplementation 'com.codeborne:selenide:5.13.0'
     testImplementation "io.qameta.allure:allure-selenide:${allureVersion}"
     testImplementation 'ch.qos.logback:logback-classic:1.2.3'
 
