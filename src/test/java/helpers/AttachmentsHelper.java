@@ -36,7 +36,6 @@ public class AttachmentsHelper {
         return getWebDriver().getPageSource().getBytes(StandardCharsets.UTF_8);
     }
 
-
     @Attachment(value = "Video", type = "text/html", fileExtension = ".html")
     public static String attachVideo() {
         if(videoStorageUrl != null) {
