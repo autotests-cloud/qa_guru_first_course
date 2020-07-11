@@ -11,6 +11,7 @@
 .mtj.tmp/
 
 # Package Files #
+*.jar
 *.war
 *.nar
 *.ear
@@ -19,7 +20,14 @@
 *.rar
 *.iml
 
+
 # Project gen files
+=======
+#Custom files
+*.secret
+
+# Project gen files
+allure.properties
 .idea/
 .gradle/
 build/
@@ -35,3 +43,4 @@ target/
 /gradle/
 gradlew
 gradlew.bat
+gradlew*
