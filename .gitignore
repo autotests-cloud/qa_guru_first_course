@@ -19,6 +19,10 @@
 *.tar.gz
 *.rar
 *.iml
+
+
+# Project gen files
+=======
 #Custom files
 *.secret
 
@@ -36,4 +40,7 @@ target/
 .settings/org.eclipse.buildship.core.prefs
 .vscode
 .allure/
+/gradle/
+gradlew
+gradlew.bat
 gradlew*
