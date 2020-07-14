@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static helpers.AttachmentsHelper.*;
 
 
-class TestBase {
+public class TestBase {
 
     @BeforeEach
     void beforeEach() {
